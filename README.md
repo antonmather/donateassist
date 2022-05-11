@@ -8,6 +8,6 @@ The dApp uses the Google Weather Oracle API (using a Chainlink adaptor) to provi
 
 Software used
 
-VSCode + Browinie (Python)
+VSCode + Brownie (Python)
 
 React
