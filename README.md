@@ -7,4 +7,5 @@ People deposit ETH into a contract which releases funds to local authorities and
 The project uses the AccuWeather Chainlink Node to provide accurate weather data.
 
 Network: Kovan
+
 Software: Remix
