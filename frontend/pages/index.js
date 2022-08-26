@@ -22,7 +22,6 @@ export default function Home() {
       <Head>
         <title>DonateAssist</title>
         <meta name="description" content="Flood insurance application" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav>
         <Header />
