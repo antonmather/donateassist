@@ -31,7 +31,7 @@ export default function Home() {
         Transparent and verifiable distribution of funds to help local
         authorities respond to flooding
       </div>
-      <figure class="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+      <figure class="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-300">
         <div className="py-4 px-8">
           Our dApp provides a form of pooled insurance for local authorities in
           the event of heavy rain and flooding, with funds being released if the
