@@ -35,9 +35,9 @@ export default function Home() {
         <div className="py-4 px-8">
           Our dApp provides a form of pooled insurance for local authorities in
           the event of heavy rain and flooding, with funds being released if the
-          rainfall amount exceeds a specified limit. This demo uses the 24 hour
+          24 hour rainfall amounts exceed a specified limit. This demo uses the
           rainfall readings for the New Zealand cities of Auckland, Wellington
-          and Christchurch. However, in order to show the dApp distributing the
+          and Christchurch. In order to show the dApp distributing the
           funds, the values for Auckland and Wellington have been changed to
           give the pressure reading (hPa) instead of rainfall. As this pressure
           reading will always be over 400mm limit set in the smart contract,
@@ -63,7 +63,7 @@ export default function Home() {
           reading update), which will then distribute the funds held by the
           contract. We note that this model can be easily and quickly adapted to
           any location worldwide and and to other weather events such as drought
-          or high windspeed. Due to data availiability limitations on the
+          or high windspeed. Due to data availability limitations on the
           AccuWeather Kovan testnet oracle, this use case was selected as the
           most optimal to showcase the potential of our approach.
         </div>
