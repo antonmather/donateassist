@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 
-contract simpleweather3 is ChainlinkClient {
+contract DonateAssist is ChainlinkClient {
     using Chainlink for Chainlink.Request;
 
     struct Conditions {
@@ -28,7 +28,7 @@ contract simpleweather3 is ChainlinkClient {
         string lon;
     }
 
-    uint24 FloodingThreshold = 400; 
+    uint24 FloodingThreshold = 30000; 
 
     Location Auckland      = Location( "Auckland",   payable(0x3E2bF52997381D2333a7d3d391ac904e472d1103), "-36.848461", "174.763336");
     Location Wellington   = Location( "Wellington",  payable(0xA2c1a145BcD3601F89f7522EB79b7e7a03625bEa), "-41.2924",   "174.7787");
