@@ -7,7 +7,7 @@ export default function Chr() {
   const { isWeb3Enabled } = useMoralis();
   const { runContractFunction: Chr24 } = useWeb3Contract({
     abi: abi,
-    contractAddress: "0xaf23fcbc38b2934b81fc54616bd3baec9701c810",
+    contractAddress: "0x5fa257f6BB0ABD7de46484a82b889a23B1d2d713",
     functionName: "Chr24",
     params: {},
   });
