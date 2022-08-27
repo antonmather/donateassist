@@ -73,7 +73,8 @@ export default function Home() {
           rainfall values to display 2) After requesting a reading update or
           after initating a withdrawal, you must manually refresh the page after
           ~20 seconds to see the updated values. 3) Only the city wallets can
-          initiate a withdrawal
+          initiate a withdrawal 4) Current contract address:
+        https://kovan.etherscan.io/address/0x5fa257f6BB0ABD7de46484a82b889a23B1d2d713
         </i>
       </div>
       <div className="grid grid-cols-2 py-1 px-4 gap-4 place-content-center">
@@ -93,10 +94,6 @@ export default function Home() {
           <Chr />
           <ReqChr />
         </div>
-      </div>
-      <div className="py-4 px-8">
-        Contract address:
-        https://kovan.etherscan.io/address/0x5fa257f6BB0ABD7de46484a82b889a23B1d2d713
       </div>
     </div>
   );
