@@ -67,12 +67,21 @@ export default function Home() {
           most optimal to showcase the potential of our approach.
         </div>
       </figure>
-      <div className="grid grid-cols-2 py-4 px-4 gap-4 place-content-center">
-        <div className="py-4 px-4">
+      <div className="py-6 px-8">
+        <i>
+          Demo notes: 1) You must connect to a Web3 wallet in order for the
+          rainfall values to display 2) After requesting a reading update or
+          after initating a withdrawal, you must manually refresh the page after
+          ~20 seconds to see the updated values. 3) Only the city wallets can
+          initiate a withdrawal
+        </i>
+      </div>
+      <div className="grid grid-cols-2 py-1 px-4 gap-4 place-content-center">
+        <div className="py-1 px-4">
           <Deposit />
           <Withdraw />
         </div>
-        <div className="py-4 px-4">
+        <div className="py-1 px-4">
           <Auc />
           <ReqAuc />
         </div>
@@ -87,7 +96,7 @@ export default function Home() {
       </div>
       <div className="py-4 px-8">
         Contract address:
-        https://kovan.etherscan.io/address/0xaf23fcbc38b2934b81fc54616bd3baec9701c810
+        https://kovan.etherscan.io/address/0x5fa257f6BB0ABD7de46484a82b889a23B1d2d713
       </div>
     </div>
   );
