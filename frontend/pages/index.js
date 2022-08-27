@@ -36,14 +36,15 @@ export default function Home() {
           the event of heavy rain and flooding, with funds being released if the
           24 hour rainfall amounts exceed a specified limit. This demo uses the
           rainfall readings for the New Zealand cities of Auckland, Wellington
-          and Christchurch. In order to show the dApp distributing the
-          funds, the values for Auckland and Wellington have been changed to
-          give the pressure reading (hPa) instead of rainfall. As this pressure
-          reading will always be over 400mm limit set in the smart contract,
-          this will see the smart contract always trigger. It is unlikely in
-          practice for two cities to suffer from simutaneous flooding events,
-          however, the demo uses this to show how the smart contract would
-          distribute funds if this was to occur.
+          and Christchurch. In order to show the dApp distributing the funds,
+          the values for Auckland and Wellington have been changed to give the
+          pressure reading (hPa) instead of rainfall. As pressure readings
+          (which return a value between 950 to 1050hPa) will always be over
+          300mm limit set in the smart contract, this will see the smart
+          contract always trigger. It is unlikely in practice for two cities to
+          suffer from simutaneous flooding events, however, the demo uses this
+          to show how the smart contract would distribute funds if this was to
+          occur.
         </div>
         <div className="py-2 px-8">
           The local authorities each have a designated blockchain wallet. When
@@ -56,15 +57,15 @@ export default function Home() {
         </div>
         <div className="py-2 px-8">
           If a city experiences heavy rainfall and flooding then they can update
-          their rainfall reading through this website. If the reading confirms
-          that the 24 hour rainfall limit has been breached then they can
-          initiate the withdrawal (this incurs a higher cost than a simple
-          reading update), which will then distribute the funds held by the
-          contract. We note that this model can be easily and quickly adapted to
-          any location worldwide and and to other weather events such as drought
-          or high windspeed. Due to data availability limitations on the
-          AccuWeather Kovan testnet oracle, this use case was selected as the
-          most optimal to showcase the potential of our approach.
+          their rainfall reading through this page. If the
+          reading confirms that the 24 hour rainfall limit has been breached
+          then they can initiate the withdrawal (this incurs a higher cost than
+          a simple reading update), which will then distribute the funds held by
+          the contract. We note that this model can be easily and quickly
+          adapted to any location worldwide and and to other weather events such
+          as drought or high windspeed. Due to data availability limitations on
+          the AccuWeather Kovan testnet oracle, this use case was selected as
+          the most optimal to showcase the potential of our approach.
         </div>
       </figure>
       <div className="py-6 px-8">
