@@ -39,7 +39,7 @@ export default function Home() {
           and Christchurch. In order to show the dApp distributing the funds,
           the values for Auckland and Wellington have been changed to give the
           pressure reading (hPa) instead of rainfall. As pressure readings
-          (which return a value between 950 to 1050hPa) will always be over
+          (which return a value between 950 to 1050hPa) will always be over the
           300mm limit set in the smart contract, this will see the smart
           contract always trigger. It is unlikely in practice for two cities to
           suffer from simutaneous flooding events, however, the demo uses this
