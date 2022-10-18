@@ -7,7 +7,7 @@ export default function Wel() {
   const { isWeb3Enabled } = useMoralis();
   const { runContractFunction: Wel24 } = useWeb3Contract({
     abi: abi,
-    contractAddress: "0x5fa257f6BB0ABD7de46484a82b889a23B1d2d713",
+    contractAddress: "0x6C1Ca71E779538631801E308d852f83aAd882021",
     functionName: "Wel24",
     params: {},
   });
