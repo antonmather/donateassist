@@ -34,8 +34,8 @@ contract DonateAssist is ChainlinkClient {
     Location Wellington   = Location( "Wellington",  payable(0xA2c1a145BcD3601F89f7522EB79b7e7a03625bEa), "-41.2924",   "174.7787");
     Location Christchurch = Location( "Christchurch",payable(0x81F28fA9429b905ed51Bc02f34a4D39a00829889), "-43.5320",   "172.6306");
 
-    address link = 0xa36085F69e2889c224210F603D836748e7dC0088;
-    address oracle= 0xfF07C97631Ff3bAb5e5e5660Cdf47AdEd8D4d4Fd;
+    address link = 0x326C977E6efc84E512bB9C30f76E30c160eD06FB;
+    address oracle= 0xB9756312523826A566e222a34793E414A81c88E1;
     bytes32 jobID=0x3763323736393836653233623462316339393064383635396263613761396430;
     uint256 payment=100000000000000000;
     string units="metric";
