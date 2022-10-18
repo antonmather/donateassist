@@ -75,7 +75,7 @@ export default function Home() {
           after initating a withdrawal, you must manually refresh the page after
           ~20 seconds to see the updated values. 3) Only the city wallets can
           initiate a withdrawal 4) Current contract address:
-        https://kovan.etherscan.io/address/0x5fa257f6BB0ABD7de46484a82b889a23B1d2d713
+        https://goerli.etherscan.io/address/0x6c1ca71e779538631801e308d852f83aad882021
         </i>
       </div>
       <div className="grid grid-cols-2 py-1 px-4 gap-4 place-content-center">
