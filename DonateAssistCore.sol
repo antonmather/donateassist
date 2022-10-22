@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 
-contract DonateAssist is ChainlinkClient {
+contract DonateAssistCore is ChainlinkClient {
     using Chainlink for Chainlink.Request;
 
     constructor() {
